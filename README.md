@@ -19,6 +19,12 @@ To install VPC Migration Tools:
 
 The executable will be in the **`./target/release/`** directory.
 
+You might want to use `scp` to transfer the executable to the server via SSH.
+
+```shell
+scp ./target/release/vpc-migration-tools <username>@<server-ip>:<path>
+```
+
 ## **Usage**
 
 VPC Migration Tools provides two main commands. For more detailed information on each command, use **`./vpc-migration-tools help <command>`**:
