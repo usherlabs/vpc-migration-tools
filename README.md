@@ -2,6 +2,8 @@
 
 VPC Migration Tools is a Rust CLI application designed to automate software configuration and image creation tasks. The primary aim is to facilitate smoother migrations when necessary. It is currently optimized for specific use cases, such as Ubuntu 22.04, but we plan to broaden its compatibility over time. The tool has been crafted to align with the requirements of IBM Cloud VPC migration based on this **[IBM documentation](https://cloud.ibm.com/docs/vpc?topic=vpc-create-linux-custom-image)**.
 
+💡 Tip: don't forget to take a snapshot of your system before proceeding with the migration. This will allow you to roll back to a previous state if necessary. Use it at your own risk.
+
 ## **Features**
 
 - Automated compatibility check to determine system readiness.
